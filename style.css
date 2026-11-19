@@ -1,0 +1,83 @@
+/* Modifie la couleur du titre principal */
+h1 {
+    color: dark;
+}
+
+/* Personnalise toute la page */
+body {
+    background-color: #1c352d; /* Couleur de fond de la page */
+    font-family: sans-serif; /* Change la police d'écriture */
+    color: #e7e7e7; /* Couleur du texte */
+    margin: 0; /* Supprime les marges extérieures */
+    padding: 20px; /* Ajoute de l'espace autour du contenu */
+    min-height: 100vh; /* Prend au minimum toute la hauteur de l'écran */
+    text-align: center; /* Centre le texte */
+}
+
+/* Crée les cadres autour des différentes parties du CV */
+.mon-cadre {
+    border: 2px solid #ffffff; /* Ajoute une bordure blanche */
+    background-color: #fdfbd4; /* Met un fond jaune clair */
+    padding: 20px; /* Ajoute de l'espace à l'intérieur du cadre */
+    color: #000000; /* Met le texte en noir */
+    border-radius: 8px; /* Arrondit les coins du cadre */
+    width: 40%; /* Définit la largeur du cadre */
+    margin: 20px auto; /* Centre le cadre sur la page */
+    font-family: Arial, sans-serif; /* Change la police du cadre */
+    height: 250px; /* Définit la hauteur du cadre */
+}
+
+/* Organise les cadres les uns à côté des autres */
+.conteneur-flex {
+    display: flex; /* Active la disposition flexible */
+    justify-content: space-between; /* Espace les cadres au maximum */
+    align-items: center; /* Aligne les cadres au centre */
+}
+
+/* Ajoute un effet de transition sur les cadres */
+.conteneur-flex .mon-cadre {
+    transition: transform 0.3s ease; /* Rend le zoom plus fluide */
+}
+
+/* Agrandit le cadre quand la souris passe dessus */
+.mon-cadre:hover {
+    transform: scale(1.1); /* Agrandit légèrement le cadre */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15); /* Ajoute une ombre */
+}
+
+/* Personnalise le menu de navigation */
+nav {
+    display: flex; /* Place les liens côte à côte */
+    gap: 10px; /* Ajoute un espace entre les liens */
+    margin-bottom: 20px; /* Ajoute une marge en dessous du menu */
+    background-color: #1c352d; /* Définit la couleur du menu */
+    padding: 10px; /* Ajoute de l'espace dans le menu */
+    border-radius: 5px; /* Arrondit les coins du menu */
+}
+
+/* Définit l'apparence normale des liens du menu */
+.nav-button {
+    padding: 10px 20px; /* Agrandit la zone cliquable */
+    background-color: #fdfbd4; /* Met un fond jaune clair */
+    color: #0f172a; /* Définit la couleur du texte */
+    text-decoration: none; /* Supprime le soulignement du lien */
+    border-radius: 5px; /* Arrondit les coins des boutons */
+    font-weight: bold; /* Met le texte en gras */
+    transition: background-color 0.3s ease; /* Anime le changement de couleur */
+}
+
+/* Change l'apparence des liens au passage de la souris */
+.nav-button:hover {
+    background-color: #8ee546; /* Change le fond en vert */
+    color: white; /* Change le texte en blanc */
+img {   
+border-radius: 8px;
+
+}
+
+
+
+}
+
+
+
